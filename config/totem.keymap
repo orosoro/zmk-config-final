@@ -19,6 +19,7 @@
 #define Fun         3
 #define Game        4
 #define Gameplus    5
+#define Test-lay    6
 
 &mt {
     quick-tap-ms = <100>;
