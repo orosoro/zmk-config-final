@@ -54,6 +54,16 @@
             bindings = <&kp F5>;
             key-positions = <16 17 18>;
         };
+
+        dobleio {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <27 28>;
+        };
+
+        guionb {
+            bindings = <&kp UNDER>;
+            key-positions = <23 24>;
+        };
     };
 
     keymap {
