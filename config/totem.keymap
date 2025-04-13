@@ -102,19 +102,19 @@
         Fun {
             display-name = "Fun";
             bindings = <
-        &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
-&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
-                             &trans  &trans  &trans    &trans  &trans  &trans
+        &bootloader  &trans  &trans        &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
+        &kp F1       &kp F2  &kp F3        &kp F4  &kp F5    &trans  &trans  &trans  &trans   &kp F10
+&trans  &trans       &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
+                             &kp LEFT_ALT  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
-        Gaming {
-            display-name = "Gaming";
+        Photoshop {
+            display-name = "Photoshop";
             bindings = <
             &kp Z           &kp X  &kp C      &kp V         &sl 5     &trans  &trans  &trans  &trans  &trans
             &kp TAB         &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &to 0
                                    &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
             >;
         };
