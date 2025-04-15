@@ -113,8 +113,8 @@
             display-name = "Photoshop";
             bindings = <
            &kp T  &kp G  &kp P      &none     &sl 5        &trans  &trans  &trans  &trans  &trans
-           &kp A  &kp S  &kp D      &none     &none        &trans  &trans  &trans  &trans  &trans
-&kp SPACE  &kp W  &none  &none      &none     &none        &trans  &trans  &trans  &trans  &trans  &to 0
+           &kp A  &kp S  &kp D      &none     &kp Z        &trans  &trans  &trans  &trans  &trans
+&kp SPACE  &kp W  &kp V  &kp ESC    &none     &kp TAB      &trans  &trans  &trans  &trans  &trans  &to 0
                          &kp LSHFT  &kp LALT  &kp LCTRL    &trans  &trans  &trans
             >;
         };
