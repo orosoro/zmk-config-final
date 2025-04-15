@@ -112,10 +112,10 @@
         Photoshop {
             display-name = "Photoshop";
             bindings = <
-            &kp Z           &kp X  &kp C      &kp V         &sl 5     &trans  &trans  &trans  &trans  &trans
-            &kp TAB         &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &to 0
-                                   &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
+           &kp T  &kp G  &kp P      &none     &sl 5        &trans  &trans  &trans  &trans  &trans
+           &kp A  &kp S  &kp D      &none     &none        &trans  &trans  &trans  &trans  &trans
+&kp SPACE  &kp W  &none  &none      &none     &none        &trans  &trans  &trans  &trans  &trans  &to 0
+                         &kp LSHFT  &kp LALT  &kp LCTRL    &trans  &trans  &trans
             >;
         };
 
