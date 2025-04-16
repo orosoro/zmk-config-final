@@ -132,10 +132,10 @@
         Control_movimiento {
             display-name = "Movimiento";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &kp LCTRL    &trans  &trans  &trans
+       &none  &none  &none  &none  &none        &none  &none  &none  &none  &none
+       &none  &none  &none  &none  &none        &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &to 0
+                     &none  &none  &kp LCTRL    &none  &none  &none
             >;
         };
 
