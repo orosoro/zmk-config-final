@@ -122,10 +122,10 @@
         Movimiento {
             display-name = "Movimiento";
             bindings = <
-           &none  &none           &kp UP_ARROW  &to 4      &none               &none   &none   &trans  &trans  &none
-           &none  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none               &none   &trans  &trans  &trans  &trans
-&kp SPACE  &kp D  &kp A           &kp T         &kp V      &none               &trans  &trans  &trans  &trans  &trans  &to 0
-                                  &kp LSHFT     &kp LALT   &kp LEFT_CONTROL    &trans  &trans  &trans
+           &none      &none           &kp UP_ARROW  &to 4      &none    &none   &none   &trans  &trans  &none
+           &kp D      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none    &none   &trans  &trans  &trans  &trans
+&kp SPACE  &kp LSHFT  &kp A           &kp T         &kp V      &none    &trans  &trans  &trans  &trans  &trans  &to 0
+                                      &kp LSHFT     &kp LCTRL  &none    &trans  &trans  &trans
             >;
         };
 
